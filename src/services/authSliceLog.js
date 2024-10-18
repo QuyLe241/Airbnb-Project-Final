@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getLocalStorage } from "../utilLogin/utils";
+import { getLocalStorage } from "../utils/utils";
 
 //      Tạo nhanh : rxslice
 const initialState = {

@@ -1,0 +1,15 @@
+.btn_get_room .btn_getRoom{
+    color: white;
+    font-weight: 600;
+    background: rgb(230,30,77);
+    background: linear-gradient(90deg, rgba(230,30,77,1) 0%, rgba(227,28,95,1) 50%, rgba(215,4,102,1) 100%);
+    &:hover {
+        opacity: 0.9;
+        color: rgb(235, 233, 233);
+    }
+}
+
+.info_room span{
+    font-size: 16px;
+    margin: 0 10px;
+}

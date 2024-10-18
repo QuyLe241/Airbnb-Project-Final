@@ -36,7 +36,7 @@ const ListRoom = () => {
                   />
                 </div>
                 <div className="">
-                  <span>{item.tenPhong}</span>
+                  <span style={{ fontWeight: 600 }}>{item.tenPhong}</span>
                 </div>
                 <div className="">
                   <p>
@@ -55,7 +55,7 @@ const ListRoom = () => {
                 </div>
                 <div className="">
                   <span></span>
-                  <p>
+                  <p style={{ fontWeight: 600 }}>
                     Giá tiền{" "}
                     <span>
                       {item.giaTien.toLocaleString("en-US", {
